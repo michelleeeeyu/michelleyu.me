@@ -1,0 +1,226 @@
+body {
+  font-style: normal;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+:root {
+  --heading-color: #534b52;
+  --bg-shade: #d2d4c8;
+  --dark: #2d232e;
+  --primary: #d70ee9;
+}
+
+/* Heading 1 */
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 67px;
+}
+
+/* Heading 2 */
+
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+/* Paragraphs */
+/* Body 1 */
+.text-lg {
+  color: var(--dark);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.text-md {
+  color: var(--dark);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.text-sm {
+  color: #0000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/* Section Titles */
+
+/* Skills and About Me */
+.section-title {
+  color: var(--heading-color);
+  font-size: 80px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+.sub-title {
+  color: var(--heading-color);
+  font-size: 30px;
+  font-weight: 600px;
+  line-height: 24px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 15px 27.333px;
+  background: white;
+  box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-items {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-items>ul {
+  list-style: none;
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 42.667px;
+
+  text-decoration: none;
+}
+
+.navbar-items ul>li>a {
+  text-decoration: none;
+}
+
+.navbar--content {
+  font-size: 16px;
+  color: #2d232e;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.navbar--active-content {
+  color: var(--primary);
+}
+
+/*Nav bar ends */
+
+
+
+.hero-section {
+  padding: 280.333px 85.333px 159.333px;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  text-align: center;
+  background-color: #eaeaeb;
+
+}
+
+.herosection-pic {
+  width: 50%;
+  height: 50%;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+/* About me */
+.about-section {
+  display: grid;
+  padding: 133.3px 85.3px;
+  align-items: center;
+  gap: 114.6px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-section-img>img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-title-about {
+  color: var(--heading-color);
+  font-size: 50px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+/* Portfolio */
+.portfolio-section {
+  display: flex;
+  padding: 112px 85px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+
+}
+
+.tba {
+  font-size: 20px;
+}
+
+.portfoliopic {
+  width: 20%;
+  height: 20%;
+  margin-bottom: 200px;
+}
+
+.contactbox {
+  padding: 90px 85px;
+  gap: 20px;
+
+}
+
+.link {
+  display: inline-block;
+  line-height: 0;
+
+
+}
+
+.contactpic {
+  width: 50px;
+  /* or any fixed size */
+  height: auto;
+  display: block;
+  padding-inline: 50px;
+  margin-top: 85px;
+  margin-bottom: 60px;
+}
