@@ -88,7 +88,7 @@ function Navbar() {
                             duration={500}
                             to="Resume"
                             className="navbar--content"
-                            href="./img/michelleyuresume.pdf">
+                            href="./img/michelleyuresumenew.pdf">
                             Resume
 
                         </a>
