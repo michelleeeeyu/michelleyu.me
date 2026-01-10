@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/michelleyu.me/static/css/main.76814a7d.css",
-    "main.js": "/michelleyu.me/static/js/main.6a55c21c.js",
+    "main.js": "/michelleyu.me/static/js/main.b01fd730.js",
     "index.html": "/michelleyu.me/index.html",
     "main.76814a7d.css.map": "/michelleyu.me/static/css/main.76814a7d.css.map",
-    "main.6a55c21c.js.map": "/michelleyu.me/static/js/main.6a55c21c.js.map"
+    "main.b01fd730.js.map": "/michelleyu.me/static/js/main.b01fd730.js.map"
   },
   "entrypoints": [
     "static/css/main.76814a7d.css",
-    "static/js/main.6a55c21c.js"
+    "static/js/main.b01fd730.js"
   ]
 }
