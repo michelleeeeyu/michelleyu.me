@@ -1,6 +1,6 @@
 import './App.css';
 import React from "react";
-import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Home/Navbar";
 import Home from "./components/Home/Homescreen";
 import AboutMe from "./components/Home/AboutMe";
@@ -14,8 +14,8 @@ function App() {
         <div>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home/>}></Route>
-            <Route path="./AboutMe" element={<AboutMe />}></Route>
+            <Route path="/" element={<Home />}></Route>
+            {/* <Route path="./AboutMe" element={<AboutMe />}></Route> */}
 
             <Route path="*" element={<div>404 Not Found</div>}></Route>
           </Routes>
