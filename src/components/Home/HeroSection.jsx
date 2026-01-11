@@ -5,7 +5,7 @@ export default function HeroSection() {
                 <div className="hero-section-content">
                     <h1 className="section-title">Michelle Yu</h1>
                     <p className="hero-section-title">
-                        <span className="hero-section-title-color">Problem Solver & Music Enthusiast</span>{" "}
+                        <span className="hero-section-title-color">Computer Engineering Student</span>{" "}
                     </p>
                     <div>
                         <img src="./img/polarbear.jpg" className="herosection-pic"/>
