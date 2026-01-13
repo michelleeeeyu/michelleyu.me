@@ -8,7 +8,7 @@ export default function HeroSection() {
                         <span className="hero-section-title-color">Computer Engineering Student</span>{" "}
                     </p>
                     <div>
-                        <img src="/img/polarbear.jpg" className="herosection-pic" />
+                        <img src="./img/polarbear.jpg" className="herosection-pic" />
                     </div>
                 </div>
             </div>

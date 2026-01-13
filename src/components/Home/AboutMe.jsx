@@ -14,7 +14,11 @@ export default function AboutMe() {
                         Hi! I'm Michelle, an 18 year-old student studying computer engineering at the University of Toronto with intended minors in AI and Finance.
                         <br />
                         <br></br>
+<<<<<<< HEAD
                         I'm passionate about coding, cyber security, Cloud, and project creation, specifically building projects that reflect my own perspectives. Ever since I was young
+=======
+                        I'm interested in the fields of software development, cyber security and Cloud, and I'm passionate about coding and project creation, specifically building projects that reflect my own perspectives. Ever since I was young
+>>>>>>> c4aa30088b802c7477abfaf35c4b222237567868
                         I have always approached learning and problem solving through my own unique lens. I never felt like I understood things the same way as other people.
                         That never stopped me though, as I developed an interest for software development, the backbone of our society today.
                         <br></br>

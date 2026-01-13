@@ -87,8 +87,12 @@ function Navbar() {
                             offset={-70}
                             duration={500}
                             className="navbar--content"
+<<<<<<< HEAD
                             href="./img/michelleyuresume.pdf"
                             target="_blank" rel="noopener noreferrer">
+=======
+                            href="./img/michelleyuresumenew.pdf">
+>>>>>>> c4aa30088b802c7477abfaf35c4b222237567868
                             Resume
 
                         </a>
