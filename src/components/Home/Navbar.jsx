@@ -86,9 +86,9 @@ function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="Resume"
                             className="navbar--content"
-                            href="./img/michelleyuresume.pdf">
+                            href="./img/michelleyuresume.pdf"
+                            target="_blank" rel="noopener noreferrer">
                             Resume
 
                         </a>
